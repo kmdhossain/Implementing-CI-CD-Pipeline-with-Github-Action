@@ -3,7 +3,7 @@ on: push
 jobs: 
   Example-Actions-Job:
     name: Exploring Github Actions
-    runs-on: ubantu-latest
+    runs-on: ubuntu-18.04
     steps:
       # Display the event that triggered the workflow
       - run: echo "The job was triggered by a ${{ github.event_name }} event."
